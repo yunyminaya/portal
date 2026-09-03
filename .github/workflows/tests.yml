@@ -29,6 +29,9 @@ env:
     libdrm-dev
     libva-dev
 
+permissions:
+  contents: read
+
 jobs:
   rust:
     name: cargo test
